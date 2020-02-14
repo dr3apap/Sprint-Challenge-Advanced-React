@@ -32,7 +32,7 @@ class WomenWorldCup extends React.Component{
 render(){
 return(
 <WrapperDiv>
-<h2>Player</h2>
+<h2>WOMEN WORLD CUP PLAYER'S </h2>
 <ChildDiv>
 {this.props.players.map(info => (<Players key={info.id} info={info}/>))}
 

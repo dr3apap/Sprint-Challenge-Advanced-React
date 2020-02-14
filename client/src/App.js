@@ -45,7 +45,7 @@ axios.get(`http://localhost:5000/api/players`)
 render(){
   return (
 <Parent className="App">
-
+<Graph worldCup={this.state.worldCup}/>
   <WomenWorldCup players={this.state.worldCup}/>
   <ToggleMode/>
 </Parent>
